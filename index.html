@@ -11,7 +11,7 @@
 <body>
    
    
-   <main class="ui grid centered">
+   <main class="ui two column grid centered">
 <!--    Column1   -->
        <section class="column"> <h1>Weather</h1> </section>
        
@@ -20,8 +20,13 @@
            <div class="image">
                <img src="http://placehold.it/200x200" alt="">
            </div>          
-           <div class="content">  <h3>City</h3> </div>
-           <div class="description"> <p> The weather is: </p></div>
+        <div class="content">  
+           <h3 class="temp"></h3>
+            <h3>City</h3>
+        </div>
+        <div class="description"> 
+           <p> The weather is: </p>
+        </div>
 <!--      end .card     -->
       
        </div>  </section>
@@ -38,6 +43,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Semantic UI   -->
     <script src="js/semantic.js"></script>
+    
+<!--    PLugins-->
+   <script src="js/jquery.simpleWeather.min.js"></script>
+    
+    
     <!-- Our Scripts -->
     <script src="js/scripts.js"></script>
     
