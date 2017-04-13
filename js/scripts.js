@@ -22,3 +22,9 @@ $.simpleWeather({
     }
   
   });
+
+//Accordion go!
+
+$('.ui.accordion')
+  .accordion()
+;
